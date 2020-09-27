@@ -1,0 +1,14 @@
+
+.form-holder{
+    display: flex;
+    justify-content: center;
+}.form{
+    width:80%
+}
+
+.group1{
+    width:65%
+}
+.group2{
+
+}

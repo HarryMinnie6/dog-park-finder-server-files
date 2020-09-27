@@ -1,0 +1,14 @@
+.mb-4 {
+  padding: 15px;
+}
+.col {
+  display: flex;
+  align-items: center;
+}
+
+.form-row {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

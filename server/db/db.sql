@@ -1,0 +1,1 @@
+CREATE TABLE reviews(id BIGSERIAL NOT NULL PRIMARY KEY, park_id BIGINT NOT NULL REFERENCES parks(id), name VARCHAR(10) NOT NULL, review TEXT NOT NULL,rating INT NOT NULL check(rating >=1 and rating <=5));
